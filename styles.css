@@ -243,6 +243,10 @@ h3 {
   transform: translateY(0) scale(1);
 }
 
+.highlight-with-note strong {
+  font-size: clamp(1.05rem, 2.3vw, 1.45rem);
+}
+
 .timeline > article + article {
   margin-top: 24px;
   padding-top: 24px;
