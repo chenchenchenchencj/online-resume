@@ -171,6 +171,7 @@ h3 {
 }
 
 .highlight {
+  position: relative;
   display: flex;
   min-width: 0;
   min-height: 116px;
@@ -195,6 +196,29 @@ h3 {
   color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.5;
+}
+
+.highlight em {
+  max-height: 0;
+  margin-top: 0;
+  overflow: hidden;
+  color: var(--gold);
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.45;
+  opacity: 0;
+  transition:
+    max-height 160ms ease,
+    margin-top 160ms ease,
+    opacity 160ms ease;
+}
+
+.highlight-with-note:hover em,
+.highlight-with-note:focus-visible em {
+  max-height: 42px;
+  margin-top: 8px;
+  opacity: 1;
 }
 
 .timeline > article + article {
