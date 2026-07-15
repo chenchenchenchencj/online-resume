@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="陈梁宇，全栈开发工程师，专注 AI Agent 应用与平台工程。"
+    />
+    <title>陈梁宇 · 全栈开发工程师</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <article class="resume-sheet" aria-labelledby="resume-title">
+      <header class="resume-header">
+        <p class="eyebrow">AI Agent Engineering · Full-stack Development</p>
+        <h1 id="resume-title">陈梁宇</h1>
+        <p class="role">全栈开发工程师</p>
+        <p class="summary">
+          聚焦 AI Agent 应用与平台工程，能够从产品问题出发完成架构设计、全栈开发、部署与稳定性治理。
+        </p>
+        <address class="contact-list" aria-label="联系方式">
+          <span>24 岁</span>
+          <a href="tel:17743466275">17743466275</a>
+          <a href="mailto:2542774185@qq.com">2542774185@qq.com</a>
+          <a
+            href="https://github.com/chenchenchenchencj"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <span>约 9 个月实习经验（两段）</span>
+        </address>
+      </header>
+
+      <main>
+        <section
+          id="highlights"
+          class="resume-section"
+          aria-labelledby="highlights-title"
+        >
+          <h2 id="highlights-title" class="section-title">核心亮点</h2>
+          <div class="section-frame highlight-grid">
+            <article class="highlight">
+              <strong>前 5%</strong>
+              <span>硕士 GPA 3.66 / 4</span>
+            </article>
+            <article class="highlight">
+              <strong>近 800</strong>
+              <span>开源项目累计 Stars</span>
+            </article>
+            <article class="highlight" aria-label="自研 ReAct Agent 执行引擎">
+              <strong>自研</strong>
+              <span>ReAct Agent 执行引擎</span>
+            </article>
+            <article class="highlight">
+              <strong>85%</strong>
+              <span>法律 RAG 调优后召回率</span>
+            </article>
+          </div>
+        </section>
+
+        <section
+          id="experience"
+          class="resume-section"
+          aria-labelledby="experience-title"
+        >
+          <h2 id="experience-title" class="section-title">工作经历</h2>
+          <div class="section-frame timeline">
+            <article class="experience-item">
+              <div class="item-heading">
+                <div>
+                  <h3>NoDeskAI</h3>
+                  <p>Agent 全栈开发实习生</p>
+                </div>
+                <time datetime="2026-03">2026.03 - 至今</time>
+              </div>
+              <p>
+                参与多 Agent 协作、AI 创作与企业任务编排平台开发，覆盖通信、上下文、工具调用、工作流与运行治理。
+              </p>
+            </article>
+            <article class="experience-item">
+              <div class="item-heading">
+                <div>
+                  <h3>杭州昊清科技有限公司</h3>
+                  <p>Java 开发实习生</p>
+                </div>
+                <time datetime="2024-09/2024-12">2024.09 - 2024.12</time>
+              </div>
+              <p>
+                负责智能法律咨询客服系统的法规知识库、RAG 检索、双 Agent 审核和自动化评测。
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section
+          id="projects"
+          class="resume-section"
+          aria-labelledby="projects-title"
+        >
+          <h2 id="projects-title" class="section-title">重点项目</h2>
+          <div class="project-stack">
+            <article class="project-card" data-project="nodeskclaw">
+              <header class="item-heading">
+                <div>
+                  <p class="project-company">NoDeskAI</p>
+                  <h3>NoDeskClaw — AI 赛博办公室 / Agent 协作平台</h3>
+                </div>
+                <p class="project-role">开源项目 · 760+ Stars / 141+ Forks</p>
+              </header>
+              <p class="tech-list" aria-label="技术栈">
+                <span>FastAPI</span><span>Vue 3</span><span>Kubernetes</span
+                ><span>Docker</span><span>SSE</span><span>WebSocket</span
+                ><span>Hermes 消息总线</span>
+              </p>
+              <p class="project-intro">
+                让产品、开发、测试等 AI 员工在独立 K8s 实例中协同工作，内置 5 套办公室模板，覆盖 18 个 AI 员工角色。
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  <strong>Agent 协作消息：</strong
+                  >完成目标员工校验、工作区上下文绑定、消息持久化、前端实时推送与实例转发，让任务可靠流转。
+                </li>
+                <li>
+                  <strong>稳定通信：</strong>使用 WebSocket Tunnel
+                  重写实例认证、心跳保活、断线重连和流式回复链路。
+                </li>
+                <li>
+                  <strong>共享上下文：</strong
+                  >设计共享黑板，让 Agent 读取目标、历史、任务与他人结论，并回写阶段成果。
+                </li>
+                <li>
+                  <strong>模板部署：</strong
+                  >参与模板更新、删除、名称校验和部署进度展示，降低虚拟团队搭建成本。
+                </li>
+              </ul>
+              <div class="project-actions">
+                <a
+                  class="project-link"
+                  href="https://github.com/NoDeskAI/nodeskclaw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card" data-project="luoshen">
+              <header class="item-heading">
+                <div>
+                  <p class="project-company">NoDeskAI</p>
+                  <h3>洛神 AI 剧本创作平台</h3>
+                </div>
+                <p class="project-role">Agent 全栈开发</p>
+              </header>
+              <p class="tech-list" aria-label="技术栈">
+                <span>FastAPI</span><span>async SQLAlchemy</span
+                ><span>PostgreSQL + pgvector</span><span>Vue 3</span
+                ><span>SSE</span><span>自研 ReAct Agent</span>
+              </p>
+              <p class="project-intro">
+                按“故事核 → 大纲 → 分场”引导用户完成剧本或小说创作，自研 ReAct 循环并编排 18 个创作类工具。
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  <strong>ReAct 引擎：</strong>实现 Thought → Action → Observation
+                  循环，以白名单、Skill 动态注入和阶段感知控制工具。
+                </li>
+                <li>
+                  <strong>Skill 供给：</strong>通过 CompositeSkillProvider
+                  聚合文件、Langfuse 和数据库，按需加载 SOP，控制 Prompt Token。
+                </li>
+                <li>
+                  <strong>项目隔离与 MCP：</strong>自动注入并隐藏 project_id，支持
+                  Agent 运行时动态扩展远程工具。
+                </li>
+                <li>
+                  <strong>长期记忆：</strong>结合摘要阈值、滑动窗口和 Memory
+                  Compass，将关键设定写入 pgvector。
+                </li>
+              </ul>
+              <div class="project-actions">
+                <a
+                  class="project-link"
+                  href="https://luoshen-nightly.nodesk.tech/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >在线体验</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card" data-project="task-platform">
+              <header class="item-heading">
+                <div>
+                  <p class="project-company">NoDeskAI</p>
+                  <h3>Task Platform — AI Agent 企业任务编排中台</h3>
+                </div>
+                <p class="project-role">Agent 全栈开发</p>
+              </header>
+              <p class="tech-list" aria-label="技术栈">
+                <span>NestJS</span><span>TypeScript</span><span>Next.js</span
+                ><span>Temporal</span><span>Prisma</span
+                ><span>PostgreSQL</span><span>Redis</span><span>MinIO</span
+                ><span>Docker</span><span>Kubernetes</span>
+              </p>
+              <p class="project-intro">
+                将企业需求拆解为 Project、Job、Task，多阶段完成编排、Agent 执行、人工审核、异常回流和结果交付。
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  <strong>编排主链路：</strong>基于 Temporal
+                  管理多步骤执行、审核、失败重试和结果交付。
+                </li>
+                <li>
+                  <strong>企业集成：</strong
+                  >统一封装飞书、企业微信和钉钉的通知、审批、文件与通讯录 API。
+                </li>
+                <li>
+                  <strong>人工审核：</strong
+                  >支持高风险节点审批及通过、退回、拒绝后的自动继续或异常处理。
+                </li>
+                <li>
+                  <strong>运行治理：</strong
+                  >整合状态、耗时、异常率、人工介入、Token 消耗和结果文件等数据。
+                </li>
+              </ul>
+              <div class="project-actions">
+                <a
+                  class="project-link"
+                  href="https://task-platform-staging.nodesk.tech/console/jobs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >在线体验</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card" data-project="browser-pilot">
+              <header class="item-heading">
+                <div>
+                  <p class="project-company">NoDeskAI</p>
+                  <h3>Browser Pilot · AI Agent 远程浏览器基础设施</h3>
+                </div>
+                <p class="project-role">开源项目开发</p>
+              </header>
+              <p class="tech-list" aria-label="技术栈">
+                <span>FastAPI</span><span>Docker</span><span>Selenium</span
+                ><span>Chrome</span><span>noVNC</span><span>PostgreSQL</span
+                ><span>S3</span><span>REST API</span><span>CLI</span>
+              </p>
+              <p class="project-intro">
+                面向 AI Agent 的远程浏览器基础设施，为每个任务提供容器级隔离的 Chrome 会话，并通过 REST API、CLI 与 Web UI 统一控制。
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  <strong>会话隔离：</strong>每个会话运行于独立 Docker
+                  容器，集成 Selenium、noVNC 与 CDP 日志，兼顾自动化、实时查看和调试。
+                </li>
+                <li>
+                  <strong>Agent 接口：</strong>设计零依赖 bpilot CLI
+                  与机器可读 JSON 输出，覆盖导航、观察、点击、输入、截图和文件操作。
+                </li>
+                <li>
+                  <strong>网络与设备：</strong>支持 Direct、Clash、OpenVPN
+                  出口切换，以及桌面、移动设备预设和指纹控制。
+                </li>
+                <li>
+                  <strong>安全与存储：</strong>以私有 runtime-worker 代理 Docker
+                  控制，接入 S3 兼容 FileStore 与签名下载，隔离运行权限和存储凭据。
+                </li>
+              </ul>
+              <div class="project-actions">
+                <a
+                  class="project-link"
+                  href="https://github.com/NoDeskAI/browser-pilot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card" data-project="legal-rag">
+              <header class="item-heading">
+                <div>
+                  <p class="project-company">杭州昊清科技有限公司</p>
+                  <h3>智能法律咨询客服系统</h3>
+                </div>
+                <p class="project-role">后端开发</p>
+              </header>
+              <p class="tech-list" aria-label="技术栈">
+                <span>Spring Boot 3.5</span><span>LangChain4j</span
+                ><span>Milvus</span><span>Redis</span><span>MySQL</span
+                ><span>DashScope</span><span>SSE</span><span>JWT</span>
+              </p>
+              <p class="project-intro">
+                基于 RAG 的法律问答助手，通过法规检索与大模型生成带条款引用的可追溯回答。
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  <strong>知识库：</strong>自研 LegalArticleSplitter，按“章 → 节 →
+                  条”切分 73 篇法规并保留来源元信息。
+                </li>
+                <li>
+                  <strong>向量检索：</strong>使用通义千问 Embedding 生成 1536
+                  维向量，结合 Top-K 与 minScore 过滤。
+                </li>
+                <li>
+                  <strong>双 Agent 审核：</strong>由 LegalAgent 生成、LegalReviewer
+                  审核并触发问题回答重生成。
+                </li>
+                <li>
+                  <strong>自动评测：</strong>自建 8
+                  类场景评测集并调优切片参数，整体召回率由 62% 提升至 85%。
+                </li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-project="travel-agent">
+              <header class="item-heading">
+                <div>
+                  <p class="project-company">每日互动 AI Agent 黑客松创意赛</p>
+                  <h3>基于 Dify 的旅行智能规划系统</h3>
+                </div>
+                <p class="project-role">2025.04 · 队长 / 系统架构设计与开发</p>
+              </header>
+              <p class="tech-list" aria-label="技术栈">
+                <span>Dify</span><span>DeepSeek-R1</span><span>Qwen 系列</span
+                ><span>ReAct Agent</span><span>高德 MCP</span
+                ><span>小红书 MCP</span><span>文生图模型</span>
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  <strong>多模型工作流：</strong>集成 DeepSeek-R1、Qwen3、Qwen-Plus，以
+                  ReAct 驱动意图、采集、行程和图文输出。
+                </li>
+                <li>
+                  <strong>多源工具链：</strong
+                  >接入高德地图、小红书和天气 API，按天数与天气动态调整景点、美食和酒店推荐。
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section
+          id="education"
+          class="resume-section"
+          aria-labelledby="education-title"
+        >
+          <h2 id="education-title" class="section-title">教育背景</h2>
+          <div class="section-frame timeline">
+            <article class="education-item">
+              <div class="item-heading">
+                <div>
+                  <h3>中国计量大学</h3>
+                  <p class="education-meta">信息与通信工程（硕士）</p>
+                </div>
+                <time datetime="2024-09/2027-06">2024.09 - 2027.06</time>
+              </div>
+              <p>
+                <strong>GPA 3.66 / 4（专业前 5%）</strong
+                >；优秀研究生干部（前 5%）、两次校级奖学金（前 15%）；一篇 SCI
+                论文在投、一篇 EI 会议论文已检索、三项专利已授权。
+              </p>
+            </article>
+            <article class="education-item">
+              <div class="item-heading">
+                <div>
+                  <h3>长春电子科技学院</h3>
+                  <p class="education-meta">电子信息科学与技术（本科）</p>
+                </div>
+                <time datetime="2020-09/2024-06">2020.09 - 2024.06</time>
+              </div>
+              <p>校优秀毕业生；获得一次校一等奖学金、多次校二等奖学金。</p>
+            </article>
+          </div>
+        </section>
+
+        <section
+          id="profile"
+          class="resume-section"
+          aria-labelledby="profile-title"
+        >
+          <h2 id="profile-title" class="section-title">自我评价</h2>
+          <div class="section-frame profile-copy">
+            <p>
+              具备 AI Agent 应用与后端开发经验，熟悉自研 ReAct Agent、RAG、MCP、Function
+              Calling、SSE / WebSocket 通信和 Docker / K8s
+              部署等工程化场景；参与开源 Agent 项目，累计 GitHub 接近 800
+              Stars。能独立完成需求拆解、接口开发、问题排查、PR
+              协作和跨端联调，关注系统稳定性、可维护性与复杂问题定位。
+            </p>
+          </div>
+        </section>
+      </main>
+    </article>
+  </body>
+</html>
